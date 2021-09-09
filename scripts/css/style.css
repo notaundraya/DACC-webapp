@@ -1,52 +1,19 @@
-body{
-    background-color: grey
-    background-repeat no-repeat;
-    background-position: center;
-    background: size 30%;
-}
-ul.ulnav{
-    border-radius: 5px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+
 li.inav{
     float:left;
 }
-li.linav a{
-    display: block;
-    color:rgb(168, 160, 160);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li.linav a{
-    display: block;
-    color: blueviolet;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 li.inav{
     float:left;
-}
-li.linav a{
-    display: block;
-    color:rgb(168, 160, 160);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 span.subtitle{
-    font-size: 10pt;
-    color: #3f75a7;
-    font-family: verdana;
+    font-size: 20pt;
+    color: #8080ff;
+    font-family: georgia;
 }
 span.maintitle{
-    font-size: 20pt;
-    color: #3f75a7;
-    font-family: verdana;  
+    font-size: 25pt;
+    color: #8080ff;
+    font-family: georgia;  
 }
 #page_wrapper{
     margin-left: auto;
@@ -59,7 +26,7 @@ span.maintitle{
     background: #ffffff;
 }
 p.p_content1{
-    font-size: 12 pt;
+    font-size: 16 pt;
     color: black;
     font-family: verdana;
     background-color: grey;
@@ -75,4 +42,51 @@ div.text-box{
     border-radius: 10px;
     border: 0px;
     background-color: rgba(150, 146, 146, 0.8);
+}
+h1{
+    background-image:url("images/stars.jfif");
+    color: whitesmoke;
+}
+#index:hover{
+    font-size: 15pt;
+    font-family: comic sans;
+    text-decoration: none;
+    color: #00cccc;
+}
+#spo_Link{
+    font-size: 14pt;
+    font-family: comic sans;
+    text-decoration: none;
+    color: #6666ff;
+}
+#spo_link:hover{
+    font-size: 18pt;
+    font-family: comic sans;
+    text-decoration: none;
+    color: #47d147;
+}
+#DACC_Link{
+    font-size: 14pt;
+    font-family: comic sans;
+    text-decoration: none;
+    color: #66b3ff;
+}
+#DACC_link:hover{
+    font-size: 18pt;
+    font-family: comic sans;
+    text-decoration: none;
+    color: #47d147;
+}
+
+#OOHS_Link{
+    font-size: 14pt;
+    font-family: comic sans;
+    text-decoration: none;
+    color: #ff751a;
+}
+#OOHS_link:hover{
+    font-size: 18pt;
+    font-family: comic sans;
+    text-decoration: none;
+    color: #3366ff;
 }
